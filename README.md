@@ -1,6 +1,8 @@
 #THIS IS THE README FILE!
 
-#Script: show-simple-inventory_v2.py
+#N9K Scripts
+
+Script: show-simple-inventory_v2.py
 This simple python script show the inventory from N9K Devices.
 show simple information like interface description and CDP Neighbor information.
 
