@@ -6,8 +6,6 @@ show simple information like interface description and CDP Neighbor information.
 
 Input: python show-simple-inventory_v2.py <IP> <username> <password>
 
-#### APIC Scripts ######
-
 Script: apic_show-mac-address.py is used to show all if a mac-address is inside the fabric
 Usage: python apic_show-mac-address.py <hostname> <username> <password> <mac-address>
 
@@ -23,7 +21,7 @@ python apic_show-mac-address.py apic admin XXXX 00:44:56:FF:FF:FF
 python apic_show-mac-address.py apic admin XXXX 00:44:56
 
 
-##############################################################3
+#APIC Scripts
 
 Script: apic_find-epg.py is used to find a specific EPG inside the Fabric
 or find a sub-string EPG inside the fabric
