@@ -2,11 +2,9 @@
 
 #N9K Scripts
 
-Script: show-simple-inventory_v2.py
-This simple python script show the inventory from N9K Devices.
-show simple information like interface description and CDP Neighbor information.
+Scripts N9K here
 
-Input: python show-simple-inventory_v2.py <IP> <username> <password>
+#APIC Scripts
 
 Script: apic_show-mac-address.py is used to show all if a mac-address is inside the fabric
 Usage: python apic_show-mac-address.py <hostname> <username> <password> <mac-address>
@@ -24,9 +22,6 @@ python apic_show-mac-address.py apic admin XXXX 00:44:56:FF:FF:FF
 (3) Group mac address inside the fabric
 
 python apic_show-mac-address.py apic admin XXXX 00:44:56
-
-
-#APIC Scripts
 
 Script: apic_find-epg.py is used to find a specific EPG inside the Fabric
 or find a sub-string EPG inside the fabric
