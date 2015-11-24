@@ -49,6 +49,7 @@ Script: apic_find-epg.py is used to find a specific EPG inside the Fabric
 or find a sub-string EPG inside the fabric
 
 Syntax: python apic_find-epg.py < hostname > < username > < password > < epg > [-s]
+
 [-s] specify if should be used sub-string on search or not.
 
 Examples:
