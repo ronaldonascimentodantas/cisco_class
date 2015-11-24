@@ -11,12 +11,22 @@ Example: show-command.py 172.16.1.1 admin cisco123 "interface description"
 -------
 
 Script: show-cdp-inventory-interface.py Return the neighbor name and neighbor interface for a local interface on Nexus 9000 using CDP protocol.
+
 Syntax: show-cdp-inventory-interface.py <switch-name> <username> <password> <interface_name>
+
+Example: show-cdp-inventory-interface.py 172.16.1.1 admin cisco123 Ethernet1/1
 
 -------
 
-Script: 
+Script: show-simple-inventory.py used to show a simple inventory interface from a device, all fieds are printed on CSV format, and could be imported on Excel.
 
+Fields: Interface, Speed, Description, Neighbor Name, Neighbor Interface
+
+Purpose: Help documentation process like an AS-Built
+
+Syntax: Syntax: show-simple-inventory.py <switch-name> <username> <password>
+
+Example: show-simple-inventory.py 172.16.1.1 admin cisco123
 
 #APIC Scripts
 
