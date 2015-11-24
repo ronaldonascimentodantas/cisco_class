@@ -4,7 +4,7 @@
 
 Script: show-command.py is used to execute ANY show command using NX-API, without necessary to login on Sandbox web interface to check the show command availabity on NXAPI.
 
-Syntax: show-command.py <<switch-name>> <username> <password> <show-command>
+Syntax: show-command.py "<switch-name>" <username> <password> <show-command>
 
 Example: show-command.py 172.16.1.1 admin cisco123 "interface description"
 
