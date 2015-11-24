@@ -14,12 +14,15 @@ Usage: python apic_show-mac-address.py <hostname> <username> <password> <mac-add
 Examples:
 
 (1) Single mac address inside the fabric
+
 python apic_show-mac-address.py apic admin XXXX 00:44:56:6F:85:AD
 
 (2) Single mac address IS NOT inside the fabric
+
 python apic_show-mac-address.py apic admin XXXX 00:44:56:FF:FF:FF
 
 (3) Group mac address inside the fabric
+
 python apic_show-mac-address.py apic admin XXXX 00:44:56
 
 
@@ -33,7 +36,9 @@ Usage: python apic_find-epg.py <hostname> <username> <password> <epg> [-s]
 Examples:
 
 (1) Find a EPG string inside the fabric
+
 python apic_find-epg_v2.py apic admin XXXX App
 
 (2) Find a EPG sub-string inside the fabric
+
 python apic_find-epg_v2.py apic admin XXXX App -s
